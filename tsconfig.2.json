@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "composite": true,
+    "outDir": "dist/2",
+  },
+  "include": ["2.ts"],
+  "references": [{
+    "path": "tsconfig.1.json"
+  }]
+}
